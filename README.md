@@ -29,6 +29,23 @@ ___
   - null >> 변수에 null을 할당하지만 변수가 존재하지는 않음
   let age = null;
   ```
+3. ### alert, prompt, confirm
+- alert
+  - 알려줌
+
+- prompt
+  - 입력받음
+
+- confirm 
+  - 확인받음
+  - ```js
+    const NAME = confirm("당신의 이름은 MIKE가 맞습니까?");
+    console.log(NAME); 
+    >> MIKE가 맞으면 true를 아니면 false를 반환함
+    ```
+
+
+
 
 
 # 참고 리소스
