@@ -43,11 +43,31 @@ ___
     console.log(NAME); 
     >> MIKE가 맞으면 true를 아니면 false를 반환함
     ```
+4. ### 형변환
+- String() >> 문자형으로 변환
+   
+- Number() >> 숫자형으로 변환
+              >> 숫자가 아닌 문자가 포함되어 있으면 NaN 반환
+     
+- Boolean() >> 불린형으로 변환
+               >> 숫자(0), 빈 문자열(""), null, undefined, NaN은 false로 반환 나머지는 true로 반환
 
+- 주의사항 >> Number(null) == 0, Number(undefined) == NaN
 
+5. ### 기본 연산자
+- 연산자 줄여서 쓰기
+  ```js
+  let num = 10;
+  num = num + 5; -> num += 5; 변환 가능
+  ```
 
-
-
+- 증가 연산자, 감소 연산자
+  ```js
+  let num = 10;
+  / let result = num++; >> 이 경우에는 num을 증가시키기 전에 result를 반환
+  / let result = ++num; >> 이 경우에는 num을 증가시킨 후 result를 변환
+  ```
+  
 # 참고 리소스
 ___
 
