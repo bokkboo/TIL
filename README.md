@@ -64,8 +64,8 @@ ___
 - 증가 연산자, 감소 연산자
   ```js
   let num = 10;
-  / let result = num++; >> 이 경우에는 num을 증가시키기 전에 result를 반환
-  / let result = ++num; >> 이 경우에는 num을 증가시킨 후 result를 변환
+  / let result = num++; >> 이 경우에는 num을 증가시키기 전에 result를 반환 >> result == 10.
+  / let result = ++num; >> 이 경우에는 num을 증가시킨 후 result를 변환 >> result == 11.
   ```
   
 # 참고 리소스
