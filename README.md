@@ -77,10 +77,16 @@ ___
       const a = 1;
       const b = "1";
       
-      console.log(a == b); >> true 반환 >> 동등연산자는 형
-            
+      console.log(a == b); >> true 반환 >> 동등연산자는 형 고려없이 반환
+      console.log(a == b); >> false 반환 >> 일치연산자는 형 고려하여 반환      
       ``` 
-
+- 조건문
+  ```js
+  - if(조건문 >> 불린형으로 반환 가능해야 함){
+      실행문
+  }
+  ```
+  
 # 참고 리소스
 
 [내게 실용적이었던 프로그래밍 공부 방법들](https://velog.io/@city7310/%EB%82%B4%EA%B0%80-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D)
