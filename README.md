@@ -67,8 +67,20 @@ ___
   / let result = num++; >> 이 경우에는 num을 증가시키기 전에 result를 반환 >> result == 10.
   / let result = ++num; >> 이 경우에는 num을 증가시킨 후 result를 변환 >> result == 11.
   ```
-  
+
+6. ### 비교 연산자, 조건문
+- 비교연산자
+  - 같다: == / 다르다: !=   
+  - 비교연산자는 불린값(true / false)를 반환한다
+  - 동등연산자(==)와 일치연산자(===)
+    - ```js
+      const a = 1;
+      const b = "1";
+      
+      console.log(a == b); >> true 반환 >> 동등연산자는 형
+            
+      ``` 
+
 # 참고 리소스
-___
 
 [내게 실용적이었던 프로그래밍 공부 방법들](https://velog.io/@city7310/%EB%82%B4%EA%B0%80-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D)
