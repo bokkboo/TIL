@@ -86,6 +86,17 @@ ___
       실행문
   }
   ```
+
+7. ### 논리연산자(AND, OR, NOT)
+- OR(||)
+  >> 하나라도 true면 true 반환(=모든값이 false일때만 false 반환)  
+- AND(&&)
+  >> 모든값이 true면 true 반환(=하나라도 false면 false 반환)
+- NOT(!)
+  >> true면 false, false면 true 반환
+- 논리연산자 우선순위 >> AND가 OR보다 우선적으로 처리된다.
+  ex) a && b || c >> (a && b) || c
+
   
 # 참고 리소스
 
