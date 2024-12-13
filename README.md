@@ -176,7 +176,17 @@ ___
       * 선언과 표현이 차이가 나는 이유? >> 'var'변수 사용의 차이
 
 ### 객체(Object)
+- 의미: 여러 속성을 하나의 변수에 저장할 수 있게 하는 데이터 타입
+  * 프로퍼티(Property) ~~ 속성
+    >> 'key'와 'value'로 이루어짐
+- 로직
+  ```js
+  const 객체 = {
+    key: 'value',
+  }  
+  ```
 
 # 참고 리소스
 
-[내게 실용적이었던 프로그래밍 공부 방법들](https://velog.io/@city7310/%EB%82%B4%EA%B0%80-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D)
+- [내게 실용적이었던 프로그래밍 공부 방법들](https://velog.io/@city7310/%EB%82%B4%EA%B0%80-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D)
+- 모던 자바스크립트 deep dive >> [https://poiemaweb.com/js-object]
